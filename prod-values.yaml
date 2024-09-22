@@ -2,22 +2,22 @@ namespace: production
 
 apigateway:
   image: kevanto/spring-petclinic-api-gateway
-  version: surabhiharsha5
+  version: 1.0.34
   replicaCount: 2
 
 customersservice:
   image: kevanto/spring-petclinic-customers-service
-  version: surabhiharsha5
+  version: 1.0.34
   replicaCount: 1
 
 vetsservice:
   image: kevanto/spring-petclinic-vets-service
-  version: surabhiharsha5
+  version: 1.0.34
   replicaCount: 1
 
 visitsservice:
   image: kevanto/spring-petclinic-visits-service
-  version: surabhiharsha5
+  version: 1.0.34
   replicaCount: 1
 
 database:
