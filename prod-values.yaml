@@ -1,23 +1,23 @@
 namespace: production
 
 apigateway:
-  image: kevanto/spring-petclinic-api-gateway
-  version: 1.0.34
+  image: 565393062704.dkr.ecr.eu-west-3.amazonaws.com
+  version: 1.0.35
   replicaCount: 2
 
 customersservice:
-  image: kevanto/spring-petclinic-customers-service
-  version: 1.0.34
+  image: 565393062704.dkr.ecr.eu-west-3.amazonaws.com
+  version: 1.0.35
   replicaCount: 1
 
 vetsservice:
-  image: kevanto/spring-petclinic-vets-service
-  version: 1.0.34
+  image: 565393062704.dkr.ecr.eu-west-3.amazonaws.com
+  version: 1.0.35
   replicaCount: 1
 
 visitsservice:
-  image: kevanto/spring-petclinic-visits-service
-  version: 1.0.34
+  image: 565393062704.dkr.ecr.eu-west-3.amazonaws.com
+  version: 1.0.35
   replicaCount: 1
 
 database:
